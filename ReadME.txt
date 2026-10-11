@@ -6,7 +6,6 @@ A reinforcement-learning agent (MaskablePPO) learns to build job-shop schedules 
 
 Built for the IEEE hackathon, **Track 03.2: The Learned Loop, From Search to Learning**.
 
-![Quality vs time](results/gap_vs_time.png)
 
 ---
 
@@ -72,7 +71,6 @@ The gap is measured against the **best makespan found by any method on that inst
 | SPT | 25.33% | 0.01 s |
 | FIFO | 26.36% | 0.01 s |
 
-![Gap by method](results/bar_gap.png)
 
 ### What the results show
 
