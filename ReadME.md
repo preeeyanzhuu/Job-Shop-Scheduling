@@ -382,13 +382,6 @@ We would rather state these ourselves than have them found:
 - Report training cost and the break-even number of instances.
 - Extend the generator to setup times, due dates and flexible machines.
 
-## Team
-
-**UnderCats**, built for IEEE hackathon Track 03.2.
-
-- Aditya: simulator and reinforcement learning
-- Priyanshu: baselines, evaluation and demo
-
 ## References and credits
 
 - B. Giffler and G. L. Thompson, "Algorithms for Solving Production-Scheduling Problems", *Operations Research*, 1960.
