@@ -1,0 +1,26 @@
+# Run: python -m rl.train --config rl/configs/ppo_large_gt.yaml
+mask_mode: gt
+init_from: models/ppo_gt_best.zip
+seed: 3
+n_envs: 4
+total_timesteps: 1000000
+learning_rate: 0.0001
+n_steps: 512
+batch_size: 256
+n_epochs: 10
+gamma: 1.0
+gae_lambda: 0.95
+ent_coef: 0.005
+hidden: 64
+size_mix:         
+  - [10, 10, 0.10]
+  - [15, 15, 0.15]
+  - [20, 20, 0.25]
+  - [30, 20, 0.20]
+  - [20, 30, 0.15]
+  - [30, 30, 0.15]
+pad_jobs: 32
+n_val: 30
+val_seed: 777
+eval_freq: 50000
+save_path: models/ppo_large_gt1.zip

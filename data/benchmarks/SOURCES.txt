@@ -1,0 +1,3 @@
+ft06, ft10, ft20: Fisher & Thompson (1963) instances, from OR-Library (J.E. Beasley),
+file jobshop1.txt, converted with convert_orlib.py. Used for TESTING only.
+Optimal makespans: ft06=55, ft10=930, ft20=1165.
